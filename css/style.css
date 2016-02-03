@@ -1,0 +1,492 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: helvetica;
+	background: transparent;
+}
+body{
+    background-color: #AA5E5E;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 10%;
+	height: 25px;
+	position: fixed;
+	z-index: 1000;
+	transition: 1s all;
+
+}
+header:hover{
+	background-image: url("http://jempanufnik.com/storage/back_static.gif");
+	background-size: 70%;
+	height: 60px;
+
+}
+.topvideo{
+	width: 100%;
+	height: 100%;
+}
+
+#uniform p{
+	background-color: yellow;
+	width: 15%;
+	font-style: oblique;
+	font-weight: bolder;
+	letter-spacing: 0.7em;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
+	float: right;
+}
+#uniform{
+	width: 100%;
+	text-align: right;
+
+}
+.stripe{
+	border-right: 1px solid black;
+}
+#uniform li{
+	border-left: 1px solid black;
+	
+	color: black;
+	float: right;
+	padding: 10px;
+	list-style-type: none;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.first {
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+	width: 80%;
+	background-color: yellow;
+}
+
+.first span {
+	position:fixed;
+	top:170px;
+	left:0px;
+	width:300px;
+	height: 300px;
+	left:-999em;
+	z-index:990;
+	transition: 1s all;
+        
+}
+.first:hover {visibility:visible;}
+.first:hover span {left:1025px; top:300px;}
+* html .first span {position:absolute;}
+.first img {
+	border-radius: 50%;
+}
+.lightblue:hover{
+	background-color: lightblue;
+	color: white;
+	border-radius: 10%;
+}
+.yellow:hover{
+	background-color: yellow;
+	color: white;
+	border-radius: 10%;
+}
+.stripe:hover{
+	background: repeating-linear-gradient(
+  45deg,
+  #7B0D0D,
+  #841212 10px,
+  #263277 10px,
+  #2B346B 20px
+);
+	border-radius: 10%;
+}
+/*First above*/
+/*Second below*/
+#coaches p{
+	background-color: #FA9C21;
+	width: 15%;
+	font-style: oblique;
+	font-weight: bolder;
+	letter-spacing: 0.7em;
+	border-bottom-right-radius: 50%;
+	border-top-right-radius: 50%;
+	float: left;
+}
+#coaches{
+	width: 100%;
+}
+.gerardo{
+	border-right: 1px solid black;
+}
+#coaches li{
+	border-left: 1px solid black;
+	
+	color: white;
+	float: left;
+	padding: 10px;
+	list-style-type: none;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+.second {
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+	width: 80%;
+}
+
+.second span {
+	position:fixed;
+	top:170px;
+	left:0px;
+	width:300px;
+	height: 300px;
+	left:-5999em;
+	z-index:990;
+	transition: 1s all;
+        
+}
+.second:hover {
+	visibility:visible;
+}
+.second:hover span {
+	left:20px; 
+	top:300px;
+}
+* html .second span {
+	position:absolute;
+}
+.second img {
+	border-radius: 50%;
+}
+
+/*Second above*/
+/*Third below*/
+
+#history p{
+	background-color: #368C2A;
+	width: 12.6%;
+	font-style: oblique;
+	font-weight: bolder;
+	letter-spacing: 0.7em;
+	float: right;
+	height: 40px;
+	text-align: center;
+}
+#history{
+	width: 100%;
+	text-align: right;
+
+}
+#history li{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	margin-top: 0px;
+	color: black;
+	float: right;
+	padding: 2px;
+	list-style-type: none;
+	letter-spacing: 9px;
+	font-size: 19px;
+
+}
+.third {
+	zoom:1.0;
+	position:relative;
+	text-decoration:none;
+
+	width: 13%;
+	float: right;
+}
+
+.third span {
+	position:fixed;
+	top:170px;
+	left:0px;
+	width:300px;
+	height: 300px;
+	left:-999em;
+	z-index:990;
+	transition: 1s all;
+        
+}
+.third:hover {
+	visibility:visible;
+}
+.third:hover span {
+	left:1025px; 
+	top:400px;
+}
+* html .third span {
+	position:absolute;
+
+}
+.third img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+
+/*Down below is main page*/
+.team{
+	width: 75%;
+	background-image: url("../img/foto.jpg");
+	background-size: 30%;
+	transition: 1s all;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	height: 1000px;
+	border-bottom-right-radius: 50%;
+	border-top-right-radius: 50%;
+	border: 5px double black;
+	opacity: 0.9;
+	z-index: 1000;
+}
+.team h1 {
+	background-color: white;
+	color: #000;
+	text-align: center;
+	height: 100px; 
+  	position: absolute;
+  	font-size: 200%;
+  	text-transform: uppercase; 
+  	margin-top: 400px; 
+  	width: 75%;
+  	border-radius: 50%;
+  	padding-top: 70px;
+  	background: rgba(255,200,200,.5);
+}
+.team h1:hover{
+	background-color: yellow;
+}
+.coach{
+    height:1000px;
+    width:75%;
+    float: right;
+    border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
+    /*border-radius: 50%;*/
+    opacity: 0.9;
+    background: url("../img/coaches.jpeg");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	border: 5px double black;
+	transition: 1s all;
+}
+.coach h1{
+	text-align: center;
+	height: 100px; 
+  	position: absolute;
+  	font-size: 200%;
+  	text-transform: uppercase; 
+  	margin-top: 400px; 
+  	width: 75%;
+  	color: #000000;
+  	background-color: white;
+  	border-radius: 50%;
+  	padding-top: 70px;
+  	background: rgba(255,200,200,.5);
+}
+.coach h1:hover{
+	background-color: #FA9C21;
+}
+#history video{
+	opacity: 0.9;
+	width: 100%;
+	float: left;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: cover;
+}
+#history video:hover{
+	cursor: pointer;
+}
+.old h1{
+	text-align: center;
+	height: 500px; 
+  	position: absolute;
+  	font-size: 200%;
+  	text-transform: uppercase; 
+  	margin-top: 400px; 
+  	width: 75%;
+  	color: #000000;
+  	background-color: white;
+  	border-radius: 50%;
+  	padding-top: 70px;
+  	background: rgba(255,200,200,.5);
+}
+.old h1:hover{
+	background-color: #368C2A;
+}
+/*IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+Next page
+team.html
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII*/
+nav {
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+nav ul{
+	float: right;
+	text-indent: -2%;
+	
+}
+nav li{
+	float: left;
+	padding: 15px;
+	list-style: none;
+	transform: rotate(-90deg);
+	background-color: #A70FEE;
+	border-radius: 50%;
+	transition: all 1s ease-in-out;
+	width: 40px;
+}
+nav a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Arial Black';
+}
+nav li:hover{
+	transform: rotate(0.5deg);
+	/*font-size: 250%;*/
+	background-color: #11AEFF;
+	background-image: url("http://img.photobucket.com/albums/v479/ScottishRoseDesigns/frostiXrose/frrainbowbg.gif");
+	color: white;
+	text-indent: 0%;
+	text-align: center;
+}
+/*Carousel image below*/
+#carousel img{
+	width: 80%;
+	height: 100vh;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+#carousel{
+	position: relative;
+}
+#carousel img:first-of-type{
+	display: block;
+}
+#home {
+	background-image: url("http://www.wallpaperslink.com/wp-content/uploads/2015/12/Fc-Barcelona-Wallpaper-Hd-2015-3.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin-left: 80%;
+	width: 20%;
+	transition: 1s all;
+}
+#home p{
+	text-align: justify;
+	height: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+  	text-transform: uppercase;
+  	text-shadow: #000000 1px 2px 3px;
+  	line-height: 30px;
+  	color: #000000;
+  	background-color: white;
+  	background: rgba(255,0,0,.5);
+	padding: 10px; 
+	padding-top: 200px;
+}
+
+#about {
+	background-image: url("http://www.neymarjr.net/wp-content/uploads/2014/02/fc-barcelona-wallpaper.jpg");
+	background-size: cover;
+	transition: 1s all;
+}
+#about h1{
+	text-transform: uppercase;
+	padding-top: 20px;
+	transition: 1s all;
+}
+#about a{
+	font-size: 25px;
+	text-decoration: none;
+	display: inline;
+	color: black;
+	padding: 50px;
+	margin-left: 40%;
+	border-radius: 2px;
+}
+#about p{
+	text-align: justify;
+	height: auto;
+	width: 80%;
+  	text-transform: uppercase;
+  	text-shadow: #000000 1px 2px 3px;
+	line-height: 20px;
+  	color: #000000;
+  	border-radius: 50px;
+  	padding-top: 70px;
+  	background: rgba(25,100,80,.5);
+	padding: 100px;
+	margin-top: 50%;
+	margin: 0 auto;
+}
+#about a:hover{
+	color: #FFBA00;
+	background: rgba(5,10,25,.5);
+}
+
+#resume {
+	background-image: url("http://wall.rimbuz.com/wp-content/uploads/Barcelona-HD-Backgrounds.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: rgba(0, 0, 0, .7);
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+}
+
+section {
+	height: 100vh;
+}
+.team_vid1{
+	width: 300px;
+	height: 150px;
+	float: left;
+	margin: 0;
+	margin-left: 4%;
+	margin-top: 3%;
+}
+.suarez{
+	width: 300px;
+	height: 150px;
+}
+/*Team.html page above*/
+
+@media only screen and (max-width: 1024px){
+	#uniform {
+		font-size: 8px;
+	}
+	#coaches{
+		font-size: 8px;
+	}
+	.team h1{
+		width: 50%;
+		font-size: 20px;
+	}
+	.team{
+		width: 50%;
+	}
+	.coach{
+		width: 50%;
+	}
+	.coach h1{
+		width: 50%;
+		font-size: 20px;
+	}
+}

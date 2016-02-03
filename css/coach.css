@@ -1,0 +1,182 @@
+html, body { 
+	height: 100%; 
+	padding: 0; 
+	margin: 0; 
+}
+header{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 10%;
+	height: 25px;
+	position: fixed;
+	z-index: 1000;
+	transition: 1s all;
+
+}
+header:hover{
+	background-image: url("http://jempanufnik.com/storage/back_static.gif");
+	background-size: 70%;
+	height: 60px;
+
+}
+div { 
+	width: 100%; height: 100%;
+}
+.child{ 
+	float: left; 
+	width: 50%; 
+	height: 50%;
+	display: block;
+}
+.first { 
+	background: #647;
+	background-image: url(../img/pep2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: 1s all;
+}
+.first:hover{
+	background-image: url(../img/pep.jpg);
+}
+.second { 
+	background: #AAA;
+	background-image: url(../img/enri2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: 1s all;
+}
+.second:hover{
+	background-image: url(../img/enri.jpg);
+}
+.third { 
+	background: #777;
+	background-image: url(../img/gerard2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: 1s all;
+}
+.third:hover{
+	background-image: url(../img/gerard.jpg);
+}
+.fourth { 
+	background: #444;
+	background-image: url(../img/vilanova2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: 1s all;
+}
+.fourth:hover{
+	background-image: url(../img/vilanova.jpg);
+}
+.child p{
+	text-align: justify;
+	padding: 10px;
+	font-family: helvetica;
+	font-size: 14px;
+	text-transform: uppercase;
+	background-color: rgba(20, 255, 255, 0.3);
+	margin: 30px;
+	border-radius: 10px;
+	height: auto;
+	font-weight: bold;
+}
+.toggle{
+	position: relative;
+	float: right;
+}
+#pep{
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(http://talksport.com/sites/default/files/tscouk_old_image/blog/pep-guardiola_6.jpg);
+}
+#luis{
+	width: 100%;
+	height: 100%;
+	background-image: url(http://www.footballgate.com/wp-content/uploads/2014/07/fc-barcelona-new-manager-luis-enrique.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#ger{
+	width: 100%;
+	height: 100%;
+	background-image: url(https://i.ytimg.com/vi/w6K8l3NrwPE/maxresdefault.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#vila{
+	width: 100%;
+	height: 100%;
+	background-image: url(http://static.euronews.com/articles/232730/1200x630_232730_barcelona-coach-vilanova-to-step-dow.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#vila h6 {
+	padding: 10px;
+	margin-top: 610px;
+	border-radius: 50%;
+	transition: 0.3s all;
+	color: white;
+	float: right;
+	background-color: #00FF42;
+	font-size: 10px;
+}
+#vila h6:hover{
+	font-size: 120%;
+	color: blue;
+	background-color: #9BFBA6;
+}
+.back_four h6{
+	padding: 10px;
+	margin-top: 610px;
+	border-radius: 50%;
+	transition: 0.3s all;
+	color: white;
+	float: right;
+	background-color: #00FF42;
+	font-size: 10px;
+}
+.back_four h6:hover{
+	font-size: 120%;
+	color: blue;
+	background-color: #9BFBA6;
+}
+
+.back_one{
+	background-color: rgba(20, 55, 125, 0.5);
+	background-image: url(../img/peppi.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.back_two{
+	background-color: rgba(200, 255, 25, 0.5);
+	background-image: url(../img/luisluis.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.back_three{
+	background-color: rgba(100, 55, 25, 0.5);
+	background-image: url(../img/martino.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.back_four{
+	background-color: rgba(255, 5, 25, 0.5);
+	background-image: url(../img/tito.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.back a{
+	float: right;
+	font-size: 20px;
+	color: red;
+	margin-right: 50px;
+}
